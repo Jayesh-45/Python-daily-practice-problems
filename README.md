@@ -1,1 +1,1 @@
-# Python-daily-practice-problems
+# This is a repository for the Python problems solved daily.
