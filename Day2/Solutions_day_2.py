@@ -21,6 +21,7 @@ def Sample(List):
 x=Sample(List)
 print("The number of strings where the string length is two or more and the first and last char are same is:",x)
 
+____
 
 # 2. Write a program to remove duplicates from a list
 
@@ -38,8 +39,9 @@ for x in List:
     if x not in newList:
         newList.append(x)
 
-print("After removing duplicate elements:",newList)'''
+print("After removing duplicate elements:",newList)
 
+____
 
 #3. Write a program to print the numbers of a specified list after removing even numbers from the list.
 
