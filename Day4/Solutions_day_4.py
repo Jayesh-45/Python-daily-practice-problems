@@ -46,7 +46,31 @@ print("Enter the",elements, "numbers(KEYS) for your List:")
 for i in range(elements):
     num=int(input())
     List1=List1+[num]
-print("Your entered 1st list is:",List1)
+print("Your entered list is:",List1)
 
 List1.sort()
 print('The second smallest number in this list is',List1[1])
+
+____
+
+#3. To find unique values from a list.
+
+def findUnique(listx):
+    x=[]
+    for i in listx:
+        if i not in x:
+            x.append(i)
+    return x
+
+Listx=[]
+elements = int(input("Enter the number of elements you want in the your lists:\n"))
+
+print("Enter the",elements, "numbers(KEYS) for your List:")
+for i in range(elements):
+    num=int(input())
+    Listx=Listx+[num]
+print("Your entered list is:",Listx)
+
+print("The unique values are",findUnique(listx))
+
+____
