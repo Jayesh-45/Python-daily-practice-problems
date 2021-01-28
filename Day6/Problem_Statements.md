@@ -1,5 +1,4 @@
-# Day 4
-
+# Day 6
 
 ### Problem 1.
 - Write a program to concatenate following dictionaries to create a new one
